@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+// @import "../../node_modules/swiper/css/swiper.min.css";
+// @import "../../node_modules/animate.css/animate.min.css";
+// @import "../../node_modules/hamburgers/dist/hamburgers.min.css";
+// @import "../../node_modules/node-waves/dist/waves.min.css";
+
+// @import "../../node_modules/material-icons/iconfont/material-icons.css";
+@import "../scss/indentation";
+@import "../scss/ui/flex";
+@import "../scss/ui/fs";
+@import "../scss/ui/color";
+@import "../scss/ui/btn";
+// @import "../scss/ui/icon";
+// @import "../scss/ui/link";
+// @import "../scss/ui/title";
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.tac {
+    text-align: center;
+}
+
+.fontw-700 {
+    font-weight: 700;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div id="keys-translr">
+      <section class="keys-translr__box">
+        
+        <div class="keys-translr__box_sidebar">
+          <div class="tac">
+            <div>
+              <img src="../images/logo/logo.svg" alt="logo" />
+            </div>
+            <div class="mb-60">
+              <h2 class="color__white fs-24 tac mt-10 mb-10">Ключи</h2>
+              <h5 class="color__white fs-17">Добро пожаловать</h5>
+            </div>
+          </div>
+
+          <div class="keys-translr__box-nav">
+            <div class="keys-translr__box-nav-box">
+              <span class="color__white fs-16 keys-translr__box-nav-box-login"
+                >Info@oookluchi.ru</span
+              >
+            </div>
+            <div class="keys-translr__box-nav-box">
+              <a
+                href="#!"
+                class="color__white fs-16 keys-translr__box-nav-box-settings"
+                >Настройки</a
+              >
+            </div>
+            <div class="keys-translr__box-nav-box">
+              <a
+                href="#!"
+                class="color__white fs-16 keys-translr__box-nav-box-logout"
+                >Выход</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="keys-translr__box_wrap-list">
+          <div>
+            <!-- header -->
+            <div class="keys-translr__box-header pt-20 pb-20 pl-60 pr-60 mb-60">
+              <div class="fjc-s fai-c">
+                <div>
+                  <img src="../images/logo/logo-blue.svg" alt="logo-blue" />
+                </div>
+                <div class="pl-10 color__blue-light fs-20 fontw-700">
+                  Переводы
+                </div>
+              </div>
+            </div>
+
+            <!-- controls -->
+            <div class="keys-translr__box-controls pl-60 pr-60 fjc-sb">
+              <div class="mb-30">
+                <a href="#!" class="keys-translr__box-controls_create-req"
+                  >Создать заявку</a
+                >
+              </div>
+
+              <div class="fai-c mb-30 fw-wrap">
+                <div class="fjc-sb fw-wrap">
+                  <div class="keys-translr__box-controls_search mb-30 mr-60">
+                    <form action="#!">
+                      <input
+                        type="text"
+                        class="keys-translr__box-controls_search-text"
+                        placeholder="Поиск"
+                      />
+                      <button
+                        type="submit"
+                        class="keys-translr__box-controls_search-btn"
+                      >
+                        &#10148;
+                      </button>
+                    </form>
+                  </div>
+                  <div class="keys-translr__box-controls_filter fai-c mb-30">
+                    <div class="fai-c fjc-sb">
+                      <div>
+                        <a
+                          href="#!"
+                          class="keys-translr__box-controls_filter-all"
+                          >Все</a
+                        >
+                      </div>
+                      <div class="pl-20">
+                        <a
+                          href="#!"
+                          class="keys-translr__box-controls_filter-open"
+                          >Открытые</a
+                        >
+                      </div>
+                      <div class="pl-20">
+                        <a
+                          href="#!"
+                          class="keys-translr__box-controls_filter-close"
+                          >Закрытые</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- list requests -->
+            <div class="keys-translr__box-req pl-60 pr-60">
+              <table class="keys-translr__box-req-table">
+                <tbody>
+                  <tr>
+                    <th>№</th>
+                    <th>Наименование</th>
+                    <th>Статус</th>
+                    <th>Время публикации</th>
+                  </tr>
+
+                  <tr>
+                    <td>01</td>
+                    <td>
+                      <a href="#!" class="keys-translr__box-req-link">Нотариальный перевод</a>
+                    </td>
+                    <td>
+                      <span class="status status-warning"></span>Ошибка в
+                      переводе
+                    </td>
+                    <td>05.02.2021 15:03:02</td>
+                  </tr>
+
+                  <tr>
+                    <td>02</td>
+                    <td>
+                      <a href="#!" class="keys-translr__box-req-link">Свидетельство на перевод</a>
+                    </td>
+                    <td><span class="status status-primary"></span>В работе</td>
+                    <td>05.02.2021 15:03:02</td>
+                  </tr>
+
+                  <tr>
+                    <td>03</td>
+                    <td>
+                      <a href="#!" class="keys-translr__box-req-link">Перевод личной и деловой переписки</a>
+                    </td>
+                    <td>
+                      <span class="status status-default"></span>Завершена
+                    </td>
+                    <td>05.02.2021 15:03:02</td>
+                  </tr>
+
+                  <tr>
+                    <td>04</td>
+                    <td>
+                      <a href="#!" class="keys-translr__box-req-link">Экономический текст</a>
+                    </td>
+                    <td><span class="status status-danger"></span>Срочная</td>
+                    <td>05.02.2021 15:03:02</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- pagination -->
+          <div class="keys-translr__box-pagi pl-60 pr-60 mt-40 mb-90">
+            <ul class="keys-translr__box-pagi-ul fjc-s">
+              <li>
+                <a href="#!" class="pr-20 fs-16 color__blue-light">1</a>
+              </li>
+              <li>
+                <a href="#!" class="pr-20 fs-16 color__blue-light">2</a>
+              </li>
+              <li>
+                <a href="#!" class="pr-20 fs-16 color__blue-light">3</a>
+              </li>
+              <li>
+                <a href="#!" class="pr-20 fs-16 color__blue-light">Следующая</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+    
+  </body>
+</html>
