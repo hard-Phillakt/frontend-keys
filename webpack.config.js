@@ -148,6 +148,40 @@ module.exports = {
         'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
       }
     }),
+    new HtmlWebpackPlugin({
+      filename: 'discussion.html',
+      template: 'src/assets/discussion.html',
+      minify: {
+        mode: 'production',
+        collapseWhitespace: true,
+        removeComments: true,
+        rNWrYVqxCXRmKPRaFd1MJhWs4SqUkaf7rd: true,
+        rNWrYVqxCXRmKPRaFd1MJhWs4SqUkaf7rd: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+      scriptLoading: 'defer',
+      meta: {
+        'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'detail.html',
+      template: 'src/assets/detail.html',
+      minify: {
+        mode: 'production',
+        collapseWhitespace: true,
+        removeComments: true,
+        rNWrYVqxCXRmKPRaFd1MJhWs4SqUkaf7rd: true,
+        rNWrYVqxCXRmKPRaFd1MJhWs4SqUkaf7rd: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+      scriptLoading: 'defer',
+      meta: {
+        'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
+      }
+    }),
     new ImageminPlugin({
       test: /\.(jpe?g|png|gif|svg)$/i
     }),

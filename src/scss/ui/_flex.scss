@@ -63,6 +63,30 @@
 
 .flex {
 
+  &__75 {
+    flex: 75%;
+
+    @media (max-width: 767px) {
+      flex: 100%;
+    }
+  }
+
+  &__50 {
+    flex: 50%;
+
+    @media (max-width: 767px) {
+      flex: 100%;
+    }
+  }
+
+  &__35 {
+    flex: 35%;
+
+    @media (max-width: 767px) {
+      flex: 100%;
+    }
+  }
+
   &__33 {
     flex: 33%;
 

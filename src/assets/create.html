@@ -63,12 +63,15 @@
               </div>
             </div>
 
+
+
             <div class="pl-60 pr-60">
+
               <div class="mb-30">
                 <h1 class="color__black fs-28">Новая заявка</h1>
               </div>
+
               <form action="#!" method="post" class="keys-translr__box-form pt-30 pb-30 pl-30 pr-30">
-                
                 <div class="mb-20">
                   <div>
                     <label for="keys-translr__box-form_title">Заголовок</label>
@@ -107,6 +110,45 @@
                   <input type="file" id="keys-translr__box-form_files" name="files[]" multiple>
                 </div>
 
+
+                <div class="mb-20">
+                  <div>
+                    <label>Выбрать статус</label>
+                  </div>
+
+                  <div class="fjc-s fw-wrap">
+                    <div class="mb-10 mr-20">
+                      <div>
+                        <input class="status-checkbox" type="radio" id="keys-translr__box-form_status-1" name="status" value="status-1" checked>
+                        <label for="keys-translr__box-form_status-1">В работе</label>
+                      </div>
+                    </div>
+  
+                    <div class="mb-10 mr-20">
+                      <div>
+                        <input class="status-checkbox" type="radio" id="keys-translr__box-form_status-2" name="status" value="status-2">
+                        <label for="keys-translr__box-form_status-2">Срочная</label>
+                      </div>
+                    </div>
+  
+                    <div class="mb-10 mr-20">
+                      <div>
+                        <input class="status-checkbox" type="radio" id="keys-translr__box-form_status-3" name="status" value="status-3">
+                        <label for="keys-translr__box-form_status-3">Ошибка в переводе</label>
+                      </div>
+                    </div>
+  
+                    <div class="mb-10 mr-20">
+                      <div>
+                        <input class="status-checkbox" type="radio" id="keys-translr__box-form_status-4" name="status" value="status-4">
+                        <label for="keys-translr__box-form_status-4">Завершена</label>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
                 <div class="mb-20">
                   <div>
                     <label for="keys-translr__box-form_comment">Комментарий</label>
@@ -117,8 +159,9 @@
                 <div>
                   <button type="submit" class="button__primary color__white pl-60 pr-60 pt-10 pb-10 fs-16">Отправить заявку</button>
                 </div>
-
               </form>
+
+
             </div>
 
         </div>

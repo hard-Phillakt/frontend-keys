@@ -9,9 +9,12 @@
     background: #428dff;
     border-radius: 50px;
     transition: all .3s ease-in-out;
+    text-decoration: none;
 
     &:hover {
         background: #428dffc4;
+        color: #fff;
+        text-decoration: none;
     }
   }
 }

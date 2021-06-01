@@ -4,7 +4,7 @@ import './scss/main.scss';
 // import '../src/scss/section/_header.scss';
 // import '../src/scss/section/_breadcrumbs.scss';
 import '../src/scss/section/_auth.scss';
-import '../src/scss/section/_list.scss';
+import '../src/scss/section/_content.scss';
 // import '../src/scss/section/_sidebar.scss';
 
 
