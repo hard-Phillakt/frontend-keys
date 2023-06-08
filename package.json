@@ -4,15 +4,15 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.5.1",
     "webpack-cli": "^3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
-    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "babel-loader": "^8.3.0",
     "babel-minify-webpack-plugin": "^0.3.1",
     "clean-webpack-plugin": "^2.0.1",
     "css-loader": "^2.1.1",
@@ -23,16 +23,16 @@
     "image-webpack-loader": "^4.6.0",
     "imagemin-webpack-plugin": "^2.4.2",
     "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass": "^1.63.2",
     "sass-autoprefixer": "^1.0.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "terser-webpack-plugin": "^2.3.5",
     "url-loader": "^1.1.2",
-    "webpack": "^4.29.6",
+    "webpack": "^4.46.0",
     "webpack-dev-server": "^3.2.1",
-    "zopfli-webpack-plugin": "^0.1.0"
+    "node-gyp": "^9.3.1"
   },
   "scripts": {
     "build": "webpack --mode production",
