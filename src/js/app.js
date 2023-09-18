@@ -10,6 +10,7 @@ $(document).ready(function () {
   $("#keys-translr__box-form_files").on("change", function (e) {
     $(classFiles).eq(0).children().remove();
     obj = Array.from(e.target.files);
+    console.log(obj);
     for (var key in obj) {
       $(classFiles).append(`<li>${obj[key].name}</li>`);
     }
